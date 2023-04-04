@@ -1,0 +1,36 @@
+#header{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    position: fixed;
+    border-bottom: 1px solid var(--primary-color);
+    box-shadow: 2.5px 5px 18px #888888;;
+}
+
+#header .myName{
+    margin-left: 30px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: lighter;
+    font-size: 27px;
+}
+
+#header .navbar{
+    margin-left: auto;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header .navbar_list{
+    display: flex;
+}
+
+#header .navbar_list li{
+    font-size: 20px;
+    list-style: none;
+    margin: 5px;
+    cursor: pointer;
+}
