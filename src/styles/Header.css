@@ -1,36 +1,221 @@
 #header{
     display: flex;
     width: 100%;
-    height: auto;
-    background-color: var(--primary-color);
+    background-color: var(--text-color-home);
     color: var(--text-color);
     position: fixed;
     border-bottom: 1px solid var(--primary-color);
-    box-shadow: 2.5px 5px 18px #888888;;
+    box-shadow: 2.5px 5px 10px #888888;;
 }
 
-#header .myName{
-    margin-left: 30px;
-    font-family: 'Dancing Script', cursive;
-    font-weight: lighter;
-    font-size: 27px;
+#header .brand{
+    width: 65%;
+    text-align: center;
+    align-self: center;
+}
+
+#header .brand a{
+    font-weight: normal;
+    font-size: 1.5em;
+    color: var(--text-color);
+    text-decoration: none;
 }
 
 #header .navbar{
+    width: 35%;
+    display: flex;
     margin-left: auto;
-    margin-right: 30px;
+}
+
+#header .navbar_list{
+    width: 100%;
+    display: flex;
+    align-self: center;
+    margin-right: auto;
+    padding: 0;
+}
+
+#header .navbar_list li{
+    font-size: 1.2em;
+    list-style: none;
+    margin: 5px;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+#header .navbar_list li:hover{
+    background-color: #555;
+}
+
+#header .navbar .navbar_btn-container{
+    margin-right: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#header .navbar_list{
-    display: flex;
+.navbar_btn-container .btn-separator{
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+    
 }
 
-#header .navbar_list li{
-    font-size: 20px;
-    list-style: none;
-    margin: 5px;
+#header .navbar .navbar_btn-language{
+    border: none;
+    background-color: transparent;
+    font-size: 1.2em;
+    color: var(--text-color);
+    padding: 0;
     cursor: pointer;
+}
+
+#ES.navbar_btn-language:hover{
+    color: red;
+}
+
+#EN.navbar_btn-language:hover{
+    color: green;
+}
+
+.navbar .toggle-button{
+    position: absolute;
+    top: 2rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.navbar .toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+@media(max-width: 1280px){
+    #header .brand{
+        width: 50%;
+    }
+
+    #header .navbar{
+        width: 50%;
+    }
+
+    #header .brand a{
+        font-size: 1.4em;
+    }
+
+    #header .navbar_list{
+        width: 50%;
+        margin: 0;
+        justify-content: flex-start;
+    }
+
+    #header .navbar_list li{
+        font-size: 1em;
+        margin: 4px;
+    }
+
+    #header .navbar .navbar_btn-container{
+        width: 50%;
+        justify-content: flex-end;
+    }
+
+    #header .navbar .navbar_btn-language{
+        font-size: 1em;
+    }
+}
+
+@media(max-width: 769px){
+    #header .brand{
+        width: 30%;
+    }
+
+    #header .navbar{
+        width: 70%;
+    }
+
+    #header .brand a{
+        font-size: 1.2em;
+    }
+
+    #header .navbar_list li{
+        font-size: 1em;
+        margin: 3px;
+    }
+
+    #header .navbar .navbar_btn-language{
+        border: none;
+        background-color: transparent;
+        font-size: .9em;
+        color: var(--text-color);
+        padding: 0;
+        cursor: pointer;
+    }
+}
+
+@media(max-width: 481px){
+    #header{
+        flex-direction: column;
+    }
+    
+    #header .brand{
+        width: 100%;
+        display: flex;
+    }
+
+    #header .brand a{
+        font-size: 1.5em;
+        margin-top: .5rem;
+        margin-left: .5rem;
+        padding: .5rem;
+        margin-right: auto;
+    }
+
+    #header .navbar{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar .toggle-button{
+        top: .5rem;
+        padding: .5rem;
+        display: flex;
+    }
+
+    #header .navbar_list{
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #header .navbar_list li{
+        font-size: 1.2em;
+    }
+
+    #header .navbar .navbar_btn-container{
+        display: none;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+
+    #header .navbar .navbar_btn-language{
+        font-size: 1.2em;
+    }
+
+    #header .navbar_list.active{
+        display: flex;
+        
+    }
+
+    #header .navbar .navbar_btn-container.active{
+        display: flex;
+    }
 }
