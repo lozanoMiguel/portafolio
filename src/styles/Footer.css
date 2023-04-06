@@ -12,17 +12,26 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: var(--text-color-home);
+  background-color: var(--secondary-color);
 }
 
 .footer_info-message h2{
   font-size: 40px;
-  color: var(--fourth-color);
+  color: var(--primary-color);
+}
+
+.footer_info-message p{
+  color: var(--primary-color);
+  font-size: 30px;
+}
+
+.footer_info-message p span a{
+  color: var(--primary-color);
 }
 
 .footer_socialMedia{
   width: 35%;
-  background-color: var(--fourth-color);
+  background-color: var(--primary-color);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -32,10 +41,10 @@
 .footer_socialMedia-title{
   text-align: center;
   font-family: 'Lora', serif;
-  color: var(--text-color-home);
+  color: var(--secondary-color);
 }
 
-.footer_socialMedia-title h2{
+.footer_socialMedia-title p{
   font-size: 30px;
 }
 
@@ -49,9 +58,63 @@
 .icon{
   height: 50px;
   margin: 10px;
-  color: var(--text-color-home);
+  color: var(--secondary-color);
 }
 
-.filter-blue{
+.filter{
   filter: invert(17%) sepia(9%) saturate(3003%) hue-rotate(187deg) brightness(98%) contrast(82%);
+}
+
+@media(max-width: 769px){
+  .footer_info-message h2{
+    font-size: 35px;
+    color: var(--primary-color);
+  }
+
+  .footer_info-message p{
+    font-size: 25px;
+  }
+
+  .footer_socialMedia-title p{
+    font-size: 25px;
+  }
+
+  .icon{
+    height: 40px;
+    margin: 10px;
+    color: var(--secondary-color);
+  }
+}
+
+@media(max-width: 481px){
+  .footer_info-message h2{
+    font-size: 20px;
+    color: var(--primary-color);
+  }
+
+  .footer_info-message p{
+    font-size: 20px;
+  }
+
+  .footer_socialMedia-title{
+    color: var(--primary-color);
+  }
+
+  .footer_socialMedia-title p{
+    font-size: 20px;
+  }
+
+  .icon{
+    height: 30px;
+    margin: 5px;
+    color: var(--secondary-color);
+  }
+
+  .footer_socialMedia{
+    background-color: var(--secondary-color);
+  }
+
+  .filter{
+    filter: invert(100%) sepia(7%) saturate(6738%) hue-rotate(147deg) brightness(102%) contrast(79%);
+  }
 }
