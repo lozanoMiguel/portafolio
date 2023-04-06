@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/Home.css'
 import Portada from '../images/fotoPortada.jpg'
+import Portada2 from '../images/fotoPortada2.jpeg'
 
 export default function Home() {
   return (
@@ -17,7 +18,7 @@ export default function Home() {
       </div>
       <div id='image' className='image'>
         <div className='image-container'>
-          <img src={ Portada } alt="Miguel Lozano" />
+          <img src={ Portada2 } alt="Miguel Lozano" />
         </div>
       </div>
     </main>

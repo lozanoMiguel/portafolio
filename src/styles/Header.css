@@ -1,24 +1,28 @@
 #header{
     display: flex;
     width: 100%;
-    background-color: var(--text-color-home);
-    color: var(--text-color);
+    background-color: transparent;
+    /*color: var(--text-color);*/
     position: fixed;
-    border-bottom: 1px solid var(--primary-color);
-    box-shadow: 2.5px 5px 10px #888888;;
+    /*border-bottom: 1px solid var(--primary-color);*/
+    /*box-shadow: 2.5px 5px 10px #888888;;*/
 }
 
 #header .brand{
     width: 65%;
     text-align: center;
     align-self: center;
+    position: relative;
 }
 
 #header .brand a{
     font-weight: normal;
-    font-size: 1.5em;
-    color: var(--text-color);
+    font-family: 'Noto Serif JP', serif;
+    font-size: 2em;
+    letter-spacing: 1px;
+    color: var(--text-color-home);
     text-decoration: none;
+    font-weight: bold;
 }
 
 #header .navbar{
@@ -28,54 +32,38 @@
 }
 
 #header .navbar_list{
-    width: 100%;
     display: flex;
     align-self: center;
     margin-right: auto;
+    margin-left: auto;
     padding: 0;
 }
 
 #header .navbar_list li{
-    font-size: 1.2em;
+    font-size: 1.3em;
     list-style: none;
     margin: 5px;
-    cursor: pointer;
+    letter-spacing: 1px;
+    color: var(--fourth-color);
     padding: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
 #header .navbar_list li:hover{
-    background-color: #555;
+    border-bottom: 2px solid var(--fourth-color);
 }
 
-#header .navbar .navbar_btn-container{
-    margin-right: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#header .translate{
+    position: absolute;
+    left: 50%;
+    top: 25%;
 }
 
-.navbar_btn-container .btn-separator{
-    margin: 0;
-    padding: 0;
-    font-size: 1.2em;
-    
-}
-
-#header .navbar .navbar_btn-language{
-    border: none;
-    background-color: transparent;
-    font-size: 1.2em;
-    color: var(--text-color);
-    padding: 0;
+.translate .translate_icon{
+    height: 25px;
+    color: #313b57;
     cursor: pointer;
-}
-
-#ES.navbar_btn-language:hover{
-    color: red;
-}
-
-#EN.navbar_btn-language:hover{
-    color: green;
 }
 
 .navbar .toggle-button{
@@ -98,26 +86,20 @@
 
 @media(max-width: 1280px){
     #header .brand{
-        width: 50%;
+        width: 65%;
     }
 
     #header .navbar{
-        width: 50%;
+        width: 35%;
     }
 
-    #header .brand a{
-        font-size: 1.4em;
-    }
+    
 
-    #header .navbar_list{
-        width: 50%;
-        margin: 0;
-        justify-content: flex-start;
-    }
-
-    #header .navbar_list li{
+   #header .navbar_list li{
         font-size: 1em;
-        margin: 4px;
+        margin: 0;
+        letter-spacing: .5px;
+        padding: 10px;
     }
 
     #header .navbar .navbar_btn-container{
@@ -131,6 +113,10 @@
 }
 
 @media(max-width: 769px){
+    #header{
+        background-color: #313b57;
+    }
+
     #header .brand{
         width: 30%;
     }
@@ -140,27 +126,31 @@
     }
 
     #header .brand a{
-        font-size: 1.2em;
+        font-size: 1.5em;
+        color: #ffffff;
     }
 
     #header .navbar_list li{
+        color: #ffffff;
         font-size: 1em;
-        margin: 3px;
+        padding: 5px;
     }
 
-    #header .navbar .navbar_btn-language{
-        border: none;
-        background-color: transparent;
-        font-size: .9em;
-        color: var(--text-color);
-        padding: 0;
-        cursor: pointer;
+    #header .translate{
+        position: absolute;
+        left: 90%;
+        top: 27%;
+    }
+
+    .translate .translate_icon{
+        color: #ffffff;
     }
 }
 
 @media(max-width: 481px){
     #header{
         flex-direction: column;
+        background-color: #313b57;
     }
     
     #header .brand{
@@ -169,8 +159,9 @@
     }
 
     #header .brand a{
+        color: #ffffff;
         font-size: 1.5em;
-        margin-top: .5rem;
+        margin-top: 0;
         margin-left: .5rem;
         padding: .5rem;
         margin-right: auto;
@@ -196,20 +187,18 @@
 
     #header .navbar_list li{
         font-size: 1.2em;
+        margin: 5px;
+        color: #ffffff;
     }
 
-    #header .navbar .navbar_btn-container{
-        display: none;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        margin: 0;
+    #header .translate{
+        left: 65%;
     }
 
-    #header .navbar .navbar_btn-language{
-        font-size: 1.2em;
+    #header .translate.active{
+        top: 7%;
     }
-
+    
     #header .navbar_list.active{
         display: flex;
         

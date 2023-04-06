@@ -1,0 +1,57 @@
+.footer{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+}
+
+.footer_info{
+  font-family: 'Lora', serif;
+  width: 65%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--text-color-home);
+}
+
+.footer_info-message h2{
+  font-size: 40px;
+  color: var(--fourth-color);
+}
+
+.footer_socialMedia{
+  width: 35%;
+  background-color: var(--fourth-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_socialMedia-title{
+  text-align: center;
+  font-family: 'Lora', serif;
+  color: var(--text-color-home);
+}
+
+.footer_socialMedia-title h2{
+  font-size: 30px;
+}
+
+.footer_socialMedia-icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon{
+  height: 50px;
+  margin: 10px;
+  color: var(--text-color-home);
+}
+
+.filter-blue{
+  filter: invert(17%) sepia(9%) saturate(3003%) hue-rotate(187deg) brightness(98%) contrast(82%);
+}
