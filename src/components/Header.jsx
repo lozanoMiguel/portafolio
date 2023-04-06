@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import '../styles/Header.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLanguage } from '@fortawesome/free-solid-svg-icons'
+import { useNavigate } from "react-router-dom";
 
 export default function Header() {
 
