@@ -3,6 +3,7 @@
     width: 100%;
     background-color: transparent;
     position: fixed;
+    z-index: 10;
 }
 
 #header .brand{
@@ -17,9 +18,10 @@
     font-family: 'Noto Serif JP', serif;
     font-size: 2em;
     letter-spacing: 1px;
-    color: var(--secondary-color);
+    color: var(--secondary-color-text);
     text-decoration: none;
     font-weight: bold;
+    cursor: pointer;
 }
 
 #header .navbar{
@@ -41,14 +43,14 @@
     list-style: none;
     margin: 5px;
     letter-spacing: 1px;
-    color: var(--primary-color);
+    color: var(--primary-color-text);
     padding: 1rem;
     text-transform: uppercase;
     cursor: pointer;
 }
 
 #header .navbar_list li:hover{
-    border-bottom: 2px solid var(--primary-color);
+    border-bottom: 2px solid var(--primary-color-text);
 }
 
 #header .translate{
@@ -59,7 +61,7 @@
 
 .translate .translate_icon{
     height: 25px;
-    color: var(--secondary-color);
+    color: var(--secondary-color-text);
     cursor: pointer;
 }
 
@@ -77,7 +79,7 @@
 .navbar .toggle-button .bar{
     height: 3px;
     width: 100%;
-    background-color: var(--tertiary-color);
+    background-color: #fff;
     border-radius: 10px;
 }
 
@@ -124,11 +126,11 @@
 
     #header .brand a{
         font-size: 1.5em;
-        color: var(--tertiary-color);
+        color: #fff;
     }
 
     #header .navbar_list li{
-        color: var(--tertiary-color);
+        color: #fff;
         font-size: 1em;
         padding: 5px;
     }
@@ -140,14 +142,14 @@
     }
 
     .translate .translate_icon{
-        color: var(--tertiary-color);
+        color: #fff;
     }
 }
 
 @media(max-width: 481px){
     #header{
         flex-direction: column;
-        background-color: var(--secondary-color);
+        background-color: var(--secondary-color-bg);
     }
     
     #header .brand{
@@ -156,7 +158,7 @@
     }
 
     #header .brand a{
-        color: var(--tertiary-color);
+        color: #fff;
         font-size: 1.5em;
         margin-top: 0;
         margin-left: .5rem;
@@ -185,7 +187,7 @@
     #header .navbar_list li{
         font-size: 1.2em;
         margin: 5px;
-        color: var(--tertiary-color);
+        color: #fff;
     }
 
     #header .translate{

@@ -1,7 +1,10 @@
 :root{
-  --primary-color: #CBE4DE;
-  --secondary-color: #313b57;
-  --tertiary-color: #ffffff;
+  --primary-color-bg: #CBE4DE;
+  --secondary-color-bg: #313b57;
+  --primary-color-text : #CBE4DE;
+  --secondary-color-text: #313b57;
+  --filter: invert(17%) sepia(9%) saturate(3003%) hue-rotate(187deg) brightness(98%) contrast(82%);
+  --filter1: invert(91%) sepia(22%) saturate(140%) hue-rotate(115deg) brightness(95%) contrast(91%);
 }
 
 body {

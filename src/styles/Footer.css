@@ -11,27 +11,29 @@
   width: 65%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  background-color: var(--secondary-color);
+  justify-content: flex-start;
+  background-color: var(--secondary-color-bg);
 }
 
 .footer_info-message h2{
   font-size: 40px;
-  color: var(--primary-color);
+  margin-left: 50px;
+  color: var(--primary-color-text);
 }
 
 .footer_info-message p{
-  color: var(--primary-color);
+  color: var(--primary-color-text);
   font-size: 30px;
+  margin-left: 50px;
 }
 
 .footer_info-message p span a{
-  color: var(--primary-color);
+  color: var(--primary-color-text);
 }
 
 .footer_socialMedia{
   width: 35%;
-  background-color: var(--primary-color);
+  background-color: var(--primary-color-bg);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -41,7 +43,7 @@
 .footer_socialMedia-title{
   text-align: center;
   font-family: 'Lora', serif;
-  color: var(--secondary-color);
+  color: var(--secondary-color-text);
 }
 
 .footer_socialMedia-title p{
@@ -58,21 +60,23 @@
 .icon{
   height: 50px;
   margin: 10px;
-  color: var(--secondary-color);
+  color: var(--secondary-color-text);
 }
 
 .filter{
-  filter: invert(17%) sepia(9%) saturate(3003%) hue-rotate(187deg) brightness(98%) contrast(82%);
+  filter: var(--filter);
 }
 
 @media(max-width: 769px){
   .footer_info-message h2{
     font-size: 35px;
-    color: var(--primary-color);
+    margin-left: 30px;
+    color: var(--primary-color-text);
   }
 
   .footer_info-message p{
     font-size: 25px;
+    margin-left: 30px;
   }
 
   .footer_socialMedia-title p{
@@ -90,7 +94,7 @@
   .footer_info-message h2{
     font-size: 20px;
     margin: 10px;
-    color: var(--primary-color);
+    color: var(--primary-color-text);
   }
 
   .footer_info-message p{
@@ -99,7 +103,7 @@
   }
 
   .footer_socialMedia-title{
-    color: var(--primary-color);
+    color: var(--primary-color-text);
   }
 
   .footer_socialMedia-title p{
@@ -110,14 +114,16 @@
   .icon{
     height: 30px;
     margin: 5px;
-    color: var(--secondary-color);
+    color: var(--secondary-color-text);
   }
 
   .footer_socialMedia{
-    background-color: var(--secondary-color);
+    background-color: var(--secondary-color-bg);
   }
 
   .filter{
-    filter: invert(100%) sepia(7%) saturate(6738%) hue-rotate(147deg) brightness(102%) contrast(79%);
+    filter:var(--filter1);
   }
+
+  
 }

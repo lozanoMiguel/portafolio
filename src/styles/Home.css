@@ -1,7 +1,7 @@
 .home{
   width: 100%;
-  height: 100vh;
-  background-color: var(--primary-color);
+  height: auto;
+  background-color: var(--primary-color-bg);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,14 +10,14 @@
 .home .intro{
   width: 65%;
   height: auto;
-  margin-bottom: 30px;
-  color: var(--secondary-color);
+  color: var(--secondary-color-text);
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .intro .intro-container{
   width: 70%;
+  margin-left: 50px;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -42,7 +42,7 @@
 }
 
 .home .image{
-  background-color: var(--secondary-color);
+  background-color: var(--secondary-color-bg);
   width: 35%;
   height: 100vh;
   display: flex;
@@ -108,8 +108,9 @@
   .image .image-container{
     width: 100%;
     height: 100%;
+    margin-left: 0;
     display: flex;
-    background-color: var(--secondary-color);
+    background-color: var(--secondary-color-bg);
   }
   
   .image .image-container img{
@@ -155,6 +156,7 @@
 
   .intro .intro-container{
     width: 400px;
+    margin-left: 0;
     text-align: center;
   }
 
@@ -185,7 +187,7 @@
     width: 100%;
     height: 100%;
     display: flex;
-    background-color: var(--secondary-color);
+    background-color: var(--secondary-color-bg);
   }
   
   .image .image-container img{
