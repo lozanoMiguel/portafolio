@@ -4,6 +4,7 @@ import Home from './components/Home'
 import Footer from './components/Footer'
 import About from './components/About'
 import Contact from './components/Contact'
+import ProjectsContainer from './components/ProjectsContainer'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
             <Route path='/' element={ <Home /> } />
             <Route path='/about' element={ <About /> } />
             <Route path='/contact' element={ <Contact /> } />
+            <Route path='/projects' element={ <ProjectsContainer/> } />
           </Routes>
         <Footer />
       </BrowserRouter>

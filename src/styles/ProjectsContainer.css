@@ -1,0 +1,28 @@
+.projectsContainer{
+  height: 100vh;
+  width: 100%;
+  font-family: 'Lora', serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: center;
+  background-color: var(--primary-color-bg);
+  color: var(--primary-color-text);
+}
+
+.projectsContainer .title{
+  text-align: center;
+  margin-top: 100px;
+}
+
+.projectsContainer .title h2{
+  font-size: 4em;
+}
+
+.projectsContainer .container{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  padding: 20px;
+}

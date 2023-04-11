@@ -6,14 +6,17 @@ export default function About() {
   return (
     <main id='main'>
       <section className='about'>
-       <h1 className='about_title'>
-          A little about me
-        </h1>
-        <p className='about_info'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, fuga iste recusandae dolorem ducimus porro sapiente veniam molestiae itaque aliquam possimus facilis adipisci eaque, facere distinctio esse! Numquam, quam id.</p>
-        <p className='about_info'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, fuga iste recusandae dolorem ducimus porro sapiente veniam molestiae itaque aliquam possimus facilis adipisci eaque, facere distinctio esse! Numquam, quam id.</p>
-        <p className='about_info'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, fuga iste recusandae dolorem ducimus porro sapiente veniam molestiae itaque aliquam possimus facilis adipisci eaque, facere distinctio esse! Numquam, quam id.</p>
-        <p className='about_info'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, fuga iste recusandae dolorem ducimus porro sapiente veniam molestiae itaque aliquam possimus facilis adipisci eaque, facere distinctio esse! Numquam, quam id.</p>
-        <p className='about_info'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, fuga iste recusandae dolorem ducimus porro sapiente veniam molestiae itaque aliquam possimus facilis adipisci eaque, facere distinctio esse! Numquam, quam id.</p>
+        <div className='about_title'>
+          <h2>A little about me</h2>
+        </div>
+        <div className='about_info'>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, fuga iste recusandae dolorem ducimus porro sapiente veniam molestiae itaque aliquam possimus facilis adipisci eaque, facere distinctio esse! Numquam, quam id.</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, fuga iste recusandae dolorem ducimus porro sapiente veniam molestiae itaque aliquam possimus facilis adipisci eaque, facere distinctio esse! Numquam, quam id.</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, fuga iste recusandae dolorem ducimus porro sapiente veniam molestiae itaque aliquam possimus facilis adipisci eaque, facere distinctio esse! Numquam, quam id.</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, fuga iste recusandae dolorem ducimus porro sapiente veniam molestiae itaque aliquam possimus facilis adipisci eaque, facere distinctio esse! Numquam, quam id.</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, fuga iste recusandae dolorem ducimus porro sapiente veniam molestiae itaque aliquam possimus facilis adipisci eaque, facere distinctio esse! Numquam, quam id.</p>
+        </div>
+        
       </section>
     </main>
   )

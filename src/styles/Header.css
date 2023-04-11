@@ -113,7 +113,7 @@
 
 @media(max-width: 769px){
     #header{
-        background-color: #313b57;
+        background-color: var(--secondary-color-bg)
     }
 
     #header .brand{

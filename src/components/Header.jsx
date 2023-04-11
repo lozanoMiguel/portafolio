@@ -40,7 +40,7 @@ export default function Header() {
           <ul className={ toggleButton ? 'navbar_list active' : 'navbar_list' }>
             <li onClick={()=>navigate('/about')}>About</li>
             <li onClick={()=>navigate('/contact')}>Contact</li>
-            <li>Projects</li>
+            <li onClick={()=>navigate('/projects')}>Projects</li>
           </ul>
         </nav>
     </header>
