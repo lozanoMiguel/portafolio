@@ -26,3 +26,24 @@
   align-items: center;
   padding: 20px;
 }
+
+@media(max-width: 1280px){
+  .projectsContainer{
+    height: auto;
+  }
+  .projectsContainer .title h2{
+    font-size: 3em;
+  }
+}
+
+@media(max-width: 769px){
+  .projectsContainer .title h2{
+    font-size: 2.5em;
+  }
+}
+
+@media(max-width: 481px){
+  .projectsContainer .title h2{
+    font-size: 2em;
+  }
+}

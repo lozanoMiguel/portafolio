@@ -9,6 +9,20 @@ export default function Header() {
 
   const [toggleButton, setToggleButton] = useState(false)
   const [fun] = useColor()
+  const heightNav = 100;
+
+  const pepe = () =>{
+    if(window.scrollY > heightNav){
+      console.log("hola");
+    }else{
+      console.log("chau")
+    }
+  }
+
+  window.addEventListener('scroll', ()=>{
+    console.log(window.scrollY)
+  });
+  
   
   const navigate = useNavigate();
   

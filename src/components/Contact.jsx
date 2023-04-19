@@ -9,6 +9,7 @@ export default function Contact() {
           <h2>Let's talk?</h2>
           <p>if you want you and me to work together on your website or your company</p>
           <h3>EMAIL</h3>
+          <p>lozanomiguel92@gmail.com</p>
         </div>
       </section>
     </main>
