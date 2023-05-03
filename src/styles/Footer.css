@@ -15,9 +15,16 @@
   background-color: var(--secondary-color-bg);
 }
 
+.footer_info-message{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .footer_info-message h2{
   font-size: 40px;
   margin-left: 50px;
+  margin-bottom: 0;
   color: var(--primary-color-text);
 }
 
@@ -27,8 +34,14 @@
   margin-left: 50px;
 }
 
+.hiddenP{
+  display: none;
+}
+
 .footer_info-message p span a{
   color: var(--primary-color-text);
+  border-bottom: 1px solid var(--primary-color-text);
+  cursor: pointer;
 }
 
 .footer_socialMedia{
