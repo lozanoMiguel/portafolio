@@ -63,5 +63,20 @@
 }
 
 @media(max-width: 481px){
+  .project{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
 
+  .project_imgContainer{
+    width: 80%;
+    height: 200px;
+    display: flex;
+  }
+
+  .project_info{
+    width: 80%;
+    padding-left: 0;
+}
 }

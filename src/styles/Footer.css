@@ -22,7 +22,7 @@
 }
 
 .footer_info-message h2{
-  font-size: 40px;
+  font-size: 2em;
   margin-left: 50px;
   margin-bottom: 0;
   color: var(--primary-color-text);
@@ -127,7 +127,7 @@
   .icon{
     height: 30px;
     margin: 5px;
-    color: var(--secondary-color-text);
+    color: var(--secondary-color);
   }
 
   .footer_socialMedia{
@@ -137,6 +137,4 @@
   .filter{
     filter:var(--filter1);
   }
-
-  
 }

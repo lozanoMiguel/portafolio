@@ -27,14 +27,14 @@ export default function useColor() {
       root.style.setProperty('--primary-color-text','#F3DEBA')
       root.style.setProperty('--secondary-color-text', '#F3DEBA')
       root.style.setProperty('--filter', 'invert(92%) sepia(34%) saturate(433%) hue-rotate(315deg) brightness(99%) contrast(93%)')
-      root.style.setProperty('--filter1', 'invert(96%) sepia(6%) saturate(663%) hue-rotate(23deg) brightness(103%) contrast(89%)')
+      root.style.setProperty('--filter1', 'invert(92%) sepia(34%) saturate(433%) hue-rotate(315deg) brightness(99%) contrast(93%)')
     }else if(location.pathname === '/projects'){
       root.style.setProperty('--primary-color-bg', '#222831')
       root.style.setProperty('--secondary-color-bg', '#222831')
       root.style.setProperty('--primary-color-text','#EEEEEE')
       root.style.setProperty('--secondary-color-text', '#EEEEEE')
       root.style.setProperty('--filter', 'invert(100%) sepia(0%) saturate(7380%) hue-rotate(328deg) brightness(125%) contrast(87%)')
-      root.style.setProperty('--filter1', 'invert(11%) sepia(8%) saturate(2027%) hue-rotate(177deg) brightness(94%) contrast(87%)')
+      root.style.setProperty('--filter1', 'invert(100%) sepia(0%) saturate(7380%) hue-rotate(328deg) brightness(125%) contrast(87%)')
     }
   }
 
