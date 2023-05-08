@@ -73,6 +73,7 @@
 .icon{
   height: 50px;
   margin: 10px;
+  cursor: pointer;
   color: var(--secondary-color-text);
 }
 

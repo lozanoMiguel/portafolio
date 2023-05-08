@@ -22,11 +22,18 @@
 }
 
 .contact_content p{
-  text-align: center;
   font-size: 2em;
+}
+
+.contact_content-email{
+  text-align: center;
+  font-size: 1em;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact_content h3{
