@@ -5,9 +5,12 @@ import instagram from '../images/brand-instagram.svg'
 import linkedin from '../images/brand-linkedin.svg'
 import { useLocation } from 'react-router-dom'
 import { useNavigate } from "react-router-dom";
+import { useTranslation } from 'react-i18next'
 
 
 export default function Footer() {
+
+  const[t, i18n] = useTranslation("global");
 
   const location = useLocation();
   const navigate = useNavigate();
@@ -16,13 +19,13 @@ export default function Footer() {
     <footer id='footer' className='footer'>
       <div className='footer_info'>
         <div className='footer_info-message'>
-          <h2>Let's go work togheter?</h2>
-          <p className={ location.pathname === '/contact' ? 'hiddenP' : ''}>Let's get in touch! <span><a onClick={()=>navigate('/contact')}>Contact</a></span> </p>
+          <h2>{t("footer.question")}</h2>
+          <p className={ location.pathname === '/contact' ? 'hiddenP' : ''}>{t("footer.affirmation")}<span><a onClick={()=>navigate('/contact')}>{t("footer.contact")}</a></span> </p>
         </div>
       </div>
       <div className='footer_socialMedia'>
         <div className='footer_socialMedia-title'>
-          <p>My social media</p>
+          <p>{t("footer.social-medias")}</p>
         </div>
         <div className='footer_socialMedia-icons'>
           <a href="https://www.instagram.com/_lozanomiguel">

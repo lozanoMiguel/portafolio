@@ -5,34 +5,38 @@ import p1 from '../images/equipoHistorico.png'
 import p2 from '../images/libroNovedades.png'
 import p3 from '../images/notes.png'
 import p4 from '../images/batSignal.png'
+import { useTranslation } from 'react-i18next'
 
 export default function ProjectsContainer() {
+
+  const[t, i18n] = useTranslation("global");
+
   return (
     <main id='main'>
       <section className='projectsContainer'>
         <div className='title'>
-            <h2>My Projects</h2>
+            <h2>{t("projects.projectsTitle")}</h2>
         </div>
         <div className='container'>
           <Project 
             img = { p1 }
-            title = {'Equipo histórico'}
-            description = {'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat molestiae qui debitis assumenda ipsam obcaecati odit mollitia repellendus. Eum, dicta doloremque! Dolor quisquam nemo beatae quo expedita consequuntur illum aspernatur?'}
+            title = {t("projects.p1title")}
+            description = {t("projects.p1")}
           />
           <Project 
             img = { p2 }
-            title = {'Libro novedades'}
-            description = {'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat molestiae qui debitis assumenda ipsam obcaecati odit mollitia repellendus. Eum, dicta doloremque! Dolor quisquam nemo beatae quo expedita consequuntur illum aspernatur?'}
+            title = {t("projects.p2title")}
+            description = {t("projects.p2")}
           />
           <Project 
             img = { p3 }
-            title = {'Notas'}
-            description = {'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat molestiae qui debitis assumenda ipsam obcaecati odit mollitia repellendus. Eum, dicta doloremque! Dolor quisquam nemo beatae quo expedita consequuntur illum aspernatur?'}
+            title = {t("projects.p3title")}
+            description = {t("projects.p3")}
           />
           <Project 
             img = { p4 }
-            title = {'Bati señal'}
-            description = {'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat molestiae qui debitis assumenda ipsam obcaecati odit mollitia repellendus. Eum, dicta doloremque! Dolor quisquam nemo beatae quo expedita consequuntur illum aspernatur?'}
+            title = {t("projects.p4title")}
+            description = {t("projects.p4")}
           />
         </div>
       </section>

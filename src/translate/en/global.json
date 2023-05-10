@@ -1,0 +1,41 @@
+{
+  "header":{
+    "about":"ABOUT",
+    "contact": "CONTACT",
+    "projects": "PROJECTS"
+  },
+  "home":{
+    "title": "Miguel Lozano",
+    "location": "Barcelona, ES",
+    "presentation":"Hello my Name Is Miguel. I'm a frontend programmer with an interest in the backend as well. I have created this website as a portfolio to show my projects, tell a little about myself and have a means of contact if you want to talk :)"
+  },
+  "about":{
+    "title":"Why this site?",
+    "about_about1": "Since I was very young in Argentina, I was always attracted to the world of computers. I remember a friend from my childhood who was able to find anything on the internet, from games to movies to music discs, and for me that was magic!",
+    "about_about2": "Although at the beginning I studied programming at UTN more out of curiosity than for professional purposes, today my focus has changed. I have realized that I want to enter this beautiful world of development and that's why I created this website.",
+    "about_about3": "During my university studies, I had the opportunity to develop some interesting projects, such as a platform similar to Netflix or hotel reservation systems. I have also worked independently for a clothing house, developing a communication system, as well as for a project manager, creating her website.",
+    "about_about4": "Besides programming, I have other interests in my life. I love sports, especially soccer, and I go to the gym to oxygenate my brain. I also play the guitar, which helps me increase my creativity, and I really enjoy spending time with my friends to maintain a balance between my daily responsibilities and my social life.",
+    "about_about5": "I am very excited to start my professional career and I am sure it will be a wonderful adventure. Thanks for reading my story!"
+  },
+  "contact":{
+    "contact_talk":"We talk?",
+    "contact_msg":"If you want us to work on a project or if you are interested in making it a part of your company."
+  },
+  "projects":{
+    "projectsTitle":"My projects",
+    "p1title":"Your ideal eleven",
+    "p1":"Web designed to build the ideal eleven of the Argentina national soccer team. It has a table with 23 players and 4 formations to form on the field. You can choose both the formation and the player you want for each position. The site was designed with HTML5, CSS3 and JavaScript.",
+    "p2title":"News book",
+    "p2":"Web designed as a news book for the employees of the Border (Argentina) store. In it you can post news and/or comments about the day to day of the store. Each post will have the name of the person who wrote it, the date and time, and can also be answered. The site was designed with HTML5, CSS3 and JavaScript for the frontend, and NodeJS and MySql for the backend.",
+    "p3title":"Notes",
+    "p3":"Developed with React and Css3, this website allows you to create notes and move them around the screen. Each note, when started, will have its corresponding creation date.",
+    "p4title":"Bat signal",
+    "p4":"Web designed to call the night knight! when you click on the reflector, the signal will be placed in the sky. Created with HTML5, CSS3 and JavaScript."
+  },
+  "footer":{
+    "question":"Let's go work togheter?",
+    "affirmation": "Let's get in touch!",
+    "contact": "Contact",
+    "social-medias": "Social media"
+  }
+}

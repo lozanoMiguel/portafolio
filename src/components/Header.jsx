@@ -4,25 +4,22 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLanguage } from '@fortawesome/free-solid-svg-icons'
 import { useNavigate } from "react-router-dom";
 import useColor from '../hooks/useColor.jsx'
+import { useTranslation } from 'react-i18next';
 
 export default function Header() {
 
+  const [t, i18n] = useTranslation("global");
+
   const [toggleButton, setToggleButton] = useState(false)
   const [fun] = useColor()
-  const heightNav = 100;
 
-  const pepe = () =>{
-    if(window.scrollY > heightNav){
-      console.log("hola");
+  const change = () =>{
+    if(i18n.language === "es"){
+      i18n.changeLanguage("en")
     }else{
-      console.log("chau")
+      i18n.changeLanguage("es")
     }
   }
-
-  window.addEventListener('scroll', ()=>{
-    console.log(window.scrollY)
-  });
-  
   
   const navigate = useNavigate();
   
@@ -43,7 +40,7 @@ export default function Header() {
           <a onClick={()=>navigate('/')}>Miguel Lozano</a>
         </div>
          <div className={toggleButton ? 'translate active' : 'translate'}>
-          <FontAwesomeIcon icon={faLanguage} className='translate_icon' />
+          <FontAwesomeIcon icon={faLanguage} className='translate_icon' onClick={change}/>
         </div>
         <nav className='navbar'>
           <a href="#" className='toggle-button' onClick={()=>{handleToggle()}} >
@@ -52,9 +49,9 @@ export default function Header() {
             <span className='bar'></span>
           </a>
           <ul className={ toggleButton ? 'navbar_list active' : 'navbar_list' }>
-            <li onClick={()=>navigate('/about')}>About</li>
-            <li onClick={()=>navigate('/contact')}>Contact</li>
-            <li onClick={()=>navigate('/projects')}>Projects</li>
+            <li onClick={()=>navigate('/about')}>{t("header.about")}</li>
+            <li onClick={()=>navigate('/contact')}>{t("header.contact")}</li>
+            <li onClick={()=>navigate('/projects')}>{t("header.projects")}</li>
           </ul>
         </nav>
     </header>

@@ -1,22 +1,23 @@
 import React from 'react'
 import '../styles/Home.css'
 import Portada2 from '../images/fotoPortada2.jpeg'
+import { useTranslation } from 'react-i18next'
 
 export default function Home() {
+  
+  const[t, i18n] = useTranslation("global");
+
   return (
     <main id='main'>
       <div className='home'>
         <div id='intro' className='intro'>
           <div className='intro-container'>
             <h1 className='intro-container_title'>
-              Desarrollador de software
+              {t("home.title")}
               <br />
-              <span className='intro-container_location'>Barcelona, ES</span>
+              <span className='intro-container_location'>{t("home.location")}</span>
             </h1>
-            <p className='intro-container_info'>Hola, me llamo Miguel. Soy un programador frontend con interés en el backend también.
-                                                He creado éste sitio web a modo de portfolio para mostrar mis proyectos, contar un poco acerca de mi
-                                                y tener un medio de contacto si quieres que hablemos :)
-            </p>
+            <p className='intro-container_info'>{t("home.presentation")}</p>
           </div>
         </div>
         <div id='image' className='image'>
