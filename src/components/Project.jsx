@@ -5,7 +5,9 @@ export default function Project(props) {
   return (
     <div className='project'>
       <div className='project_imgContainer'>
-        <img src={ props.img } alt="" />
+        <a href={ props.url }>
+          <img src={ props.img } alt="" />
+        </a>
       </div>
       <div className='project_info'>
         <div className='project_info-title'>

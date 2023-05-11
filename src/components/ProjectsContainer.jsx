@@ -18,22 +18,26 @@ export default function ProjectsContainer() {
             <h2>{t("projects.projectsTitle")}</h2>
         </div>
         <div className='container'>
-          <Project 
+          <Project
+            url = { "https://github.com/lozanoMiguel/equipoHistorico" } 
             img = { p1 }
             title = {t("projects.p1title")}
             description = {t("projects.p1")}
           />
           <Project 
+            url = { "https://github.com/lozanoMiguel/libroNovedades" } 
             img = { p2 }
             title = {t("projects.p2title")}
             description = {t("projects.p2")}
           />
           <Project 
+            url = { "https://github.com/lozanoMiguel/notes" } 
             img = { p3 }
             title = {t("projects.p3title")}
             description = {t("projects.p3")}
           />
           <Project 
+            url = { "https://github.com/lozanoMiguel/batSignal" } 
             img = { p4 }
             title = {t("projects.p4title")}
             description = {t("projects.p4")}

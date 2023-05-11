@@ -1,11 +1,12 @@
 .project{
     width: 80%;
+    height: 350px;
     display: flex;
     background-color: transparent;
     color: var(--primary-color-text);
     justify-content: center;
     align-items: center;
-}
+  }
 
 .project_imgContainer{
     width: 35%;
@@ -13,7 +14,12 @@
     display: flex;
 }
 
-.project_imgContainer img{
+.project_imgContainer a{
+    height: 100%;
+    width: 100%;
+}
+
+.project_imgContainer a img{
     width: 100%;
     height: 100%;
     object-fit: fill;
@@ -59,12 +65,17 @@
 }
 
 @media(max-width: 769px){
+  .project{
+    width: 100%;
+    height: 250px;
+  }
 
 }
 
 @media(max-width: 481px){
   .project{
     width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
   }
