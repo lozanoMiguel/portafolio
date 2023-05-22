@@ -49,10 +49,6 @@
     cursor: pointer;
 }
 
-#header .navbar_list li:hover{
-    border-bottom: 2px solid var(--primary-color-text);
-}
-
 #header .translate{
     position: absolute;
     left: 50%;

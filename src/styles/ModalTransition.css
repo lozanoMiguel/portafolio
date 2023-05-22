@@ -1,0 +1,39 @@
+.modalTransition{
+  height: 0;
+  width: 100%;
+  visibility: hidden;
+  background-color: var(--primary-color-bg);
+  position: absolute;
+  z-index: 100;
+  animation-duration: 2.2s;
+  animation-timing-function: ease;
+}
+
+.on{
+  animation-name: animation1;
+}
+
+.off{
+  animation-name: animation;
+}
+
+@keyframes animation{
+  0%{
+    visibility: visible;
+  }
+  100%{
+    height: 100vh;
+  }
+}
+
+@keyframes animation1{
+  0%{
+    visibility: visible;
+    height: 100vh;
+    top: 0;
+    
+  }
+  100%{
+    top: 100%;
+  }
+}
