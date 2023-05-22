@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../styles/Contact.css'
 import CopyToClipboard from 'react-copy-to-clipboard'
 import clip from '../images/clipboard-copy.svg'
@@ -8,6 +8,10 @@ import ModalTransition from './ModalTransition'
 export default function Contact() {
 
   const[t, i18n] = useTranslation("global");
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   
   return (
     <>
