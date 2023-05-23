@@ -30,7 +30,11 @@
     "p3title":"Notas",
     "p3":"Desarrollada con React y Css3, esta web permite crear notas y moverlas por la pantalla. Cada nota, al ser iniciada, tendrá su fecha de creación correspondiente.",
     "p4title":"Bati señal",
-    "p4":"Web diseñada para llamar al caballero de la noche! al oprimir un click en el reflector, la señal se pondrá en el cielo. Creada con HTML5, CSS3 Y JavaScript."
+    "p4":"Web diseñada para llamar al caballero de la noche! al oprimir un click en el reflector, la señal se pondrá en el cielo. Creada con HTML5, CSS3 Y JavaScript.",
+    "p5title":"Multirivel",
+    "p5":"Realicé un proyecto como prueba técnica para la agencia 'Agency Right Now'. El objetivo principal del proyecto fue migrar una página web desarrollada con HTML5, CSS, jQuery y JavaScript a un framework. Decidí utilizar la biblioteca React para llevar a cabo esta migración. Aunque entregué el proyecto, lamentablemente no recibí ninguna respuesta por parte de la empresa. Esta experiencia me permitió invertir tiempo y esfuerzo en el proyecto, y aprendí mucho en el proceso. A pesar de no obtener una respuesta, considero que fue una valiosa experiencia y por eso he decidido incluirlo en mi lista de proyectos. Me permitió desarrollar mis habilidades y adquirir conocimientos significativos.",
+    "p6title":"Paola Kremer",
+    "p6":"Sitio web realizado para Paola a modo de porfolio, en él cuenta sobre ella, su experiencia, los servicios que brinda y su contacto para contrataciones"
   },
   "footer":{
     "question":"Trabajamos juntos?",

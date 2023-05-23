@@ -5,6 +5,8 @@ import p1 from '../images/equipoHistorico.png'
 import p2 from '../images/libroNovedades.png'
 import p3 from '../images/notes.png'
 import p4 from '../images/batSignal.png'
+import p5 from '../images/multirivel.png'
+import p6 from '../images/paola.png'
 import { useTranslation } from 'react-i18next'
 import ModalTransition from './ModalTransition';
 
@@ -44,6 +46,18 @@ export default function ProjectsContainer() {
               img = { p4 }
               title = {t("projects.p4title")}
               description = {t("projects.p4")}
+            />
+            <Project 
+              url = { "https://github.com/lozanoMiguel/multirivelChallenge" } 
+              img = { p5 }
+              title = {t("projects.p5title")}
+              description = {t("projects.p5")}
+            />
+            <Project 
+              url = { "https://paolakremer.com" } 
+              img = { p6 }
+              title = {t("projects.p6title")}
+              description = {t("projects.p6")}
             />
           </div>
         </section>

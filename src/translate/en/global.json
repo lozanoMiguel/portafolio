@@ -30,7 +30,11 @@
     "p3title":"Notes",
     "p3":"Developed with React and Css3, this website allows you to create notes and move them around the screen. Each note, when started, will have its corresponding creation date.",
     "p4title":"Bat signal",
-    "p4":"Web designed to call the night knight! when you click on the reflector, the signal will be placed in the sky. Created with HTML5, CSS3 and JavaScript."
+    "p4":"Web designed to call the night knight! when you click on the reflector, the signal will be placed in the sky. Created with HTML5, CSS3 and JavaScript.",
+    "p5title": "Multirivel",
+    "p5":"Project carried out for 'Agency Right Now,' the project involved migrating a website built with HTML5, CSS, jQuery, and JavaScript to a framework. I chose to use the React library for this task. This project was a technical test that I was assigned to complete, which I submitted but never received a response. It was a time-consuming effort that taught me a lot, and that's why I have decided to include it in my portfolio. Despite not receiving any feedback, it was a valuable learning experience.",
+    "p6title":"Paola Kremer",
+    "p6":"Website made for Paola as a portfolio, in which she tells about herself, her experience, the services she provides and her contact for hiring"
   },
   "footer":{
     "question":"Let's go work togheter?",
