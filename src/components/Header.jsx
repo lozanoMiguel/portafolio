@@ -18,6 +18,7 @@ export default function Header() {
 
   useEffect(()=>{
     fun();
+    
   })
 
   const change = () =>{
@@ -38,6 +39,7 @@ export default function Header() {
   const transition = (param) =>{
     setModal(true)
     setTimeout(() => {
+      setToggleButton(false)
       navigate(param)
       setModal(false)
     }, 2000);
