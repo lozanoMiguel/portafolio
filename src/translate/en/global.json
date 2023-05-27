@@ -34,7 +34,9 @@
     "p5title": "Multirivel",
     "p5":"Project carried out for 'Agency Right Now,' the project involved migrating a website built with HTML5, CSS, jQuery, and JavaScript to a framework. I chose to use the React library for this task. This project was a technical test that I was assigned to complete, which I submitted but never received a response. It was a time-consuming effort that taught me a lot, and that's why I have decided to include it in my portfolio. Despite not receiving any feedback, it was a valuable learning experience.",
     "p6title":"Paola Kremer",
-    "p6":"Website made for Paola as a portfolio, in which she tells about herself, her experience, the services she provides and her contact for hiring"
+    "p6":"Website made for Paola as a portfolio, in which she tells about herself, her experience, the services she provides and her contact for hiring",
+    "p7title":"Miguel Lozano",
+    "p7":"My Web site. it was built as a portfolio. I think it's important to have your own website as a programmer."
   },
   "footer":{
     "question":"Let's go work togheter?",

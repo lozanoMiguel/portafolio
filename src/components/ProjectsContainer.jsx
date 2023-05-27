@@ -7,6 +7,7 @@ import p3 from '../images/notes.png'
 import p4 from '../images/batSignal.png'
 import p5 from '../images/multirivel.png'
 import p6 from '../images/paola.png'
+import p7 from '../images/lozanomiguel.png'
 import { useTranslation } from 'react-i18next'
 import ModalTransition from './ModalTransition';
 
@@ -58,6 +59,12 @@ export default function ProjectsContainer() {
               img = { p6 }
               title = {t("projects.p6title")}
               description = {t("projects.p6")}
+            />
+            <Project 
+              url = { "https://github.com/lozanoMiguel/portafolio" } 
+              img = { p7 }
+              title = {t("projects.p7title")}
+              description = {t("projects.p7")}
             />
           </div>
         </section>
