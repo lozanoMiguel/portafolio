@@ -75,7 +75,7 @@
 .navbar .toggle-button .bar{
     height: 3px;
     width: 100%;
-    background-color: #fff;
+    background-color: var(--primary-color-text);
     border-radius: 10px;
 }
 
@@ -88,9 +88,7 @@
         width: 35%;
     }
 
-    
-
-   #header .navbar_list li{
+    #header .navbar_list li{
         font-size: 1em;
         margin: 0;
         letter-spacing: .5px;
@@ -122,11 +120,11 @@
 
     #header .brand a{
         font-size: 1.5em;
-        color: #fff;
+        color: var(--primary-color-text)
     }
 
     #header .navbar_list li{
-        color: #fff;
+        color: var(--primary-color-text);
         font-size: 1em;
         padding: 5px;
     }
@@ -135,10 +133,6 @@
         position: absolute;
         left: 90%;
         top: 27%;
-    }
-
-    .translate .translate_icon{
-        color: #fff;
     }
 }
 
@@ -154,7 +148,6 @@
     }
 
     #header .brand a{
-        color: #fff;
         font-size: 1.5em;
         margin-top: 0;
         margin-left: .5rem;
@@ -183,11 +176,14 @@
     #header .navbar_list li{
         font-size: 1.2em;
         margin: 5px;
-        color: #fff;
     }
 
     #header .translate{
         left: 65%;
+    }
+
+    .translate .translate_icon{
+        color: var(--primary-color-text)
     }
 
     #header .translate.active{
