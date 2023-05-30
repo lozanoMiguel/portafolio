@@ -24,8 +24,8 @@ export default function Contact() {
             <p>{t("contact.contact_msg")}</p>
             <h3>EMAIL</h3>
             <div className='contact_content-email'>
-              <p>lozanomiguel92@gmail.com</p>
-              <CopyToClipboard text='lozanomiguel92@gmail.com' onCopy={()=>{setCopied(true)}}>
+              <p>lozanomigueldev@gmail.com</p>
+              <CopyToClipboard text='lozanomigueldev@gmail.com' onCopy={()=>{setCopied(true)}}>
                 <img src={ clip } alt="" className='icon filter' />
               </CopyToClipboard>
               {copied ? <span style={{color: 'var(--primary-color-text)'}}>Copied.</span> : null}

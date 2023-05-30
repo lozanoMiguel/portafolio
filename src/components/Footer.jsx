@@ -35,7 +35,7 @@ export default function Footer() {
           <a href="https://linkedin.com/in/lozanomiguel">
             <motion.img src={ linkedin } alt="https://linkedin.com/in/lozanomiguel" className='icon filter' whileHover={{ scale: [null, 1.5, 1.4] }} transition={{ duration: 0.3 }}/>
           </a>
-          <a href="mailto:lozanomiguel92@gmail.com">
+          <a href="mailto:lozanomigueldev@gmail.com">
             <motion.img src={ mail } alt="lozanomiguel92@gmail.com" className='icon filter' whileHover={{ scale: [null, 1.5, 1.4] }} transition={{ duration: 0.3 }}/>
           </a>
         </div>
