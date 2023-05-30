@@ -26,7 +26,7 @@
     "p1title":"Tú once ideal",
     "p1":"Web diseñada para armar el once ideal de la selección Argentina de fútbol. La misma tiene una tabla con 23 jugadores y 4 formaciones para formar en cancha. Podrás elegir tanto la formación como el jugador que quieres para cada puesto. El sitio fue diseñado con HTML5, CSS3 Y JavaScript.",
     "p2title":"Libro de novedades",
-    "p2":"Web diseñada como libro de novedades para los empleados de la tienda Border(Argentina). En ella se puede relizar novedades y/o comentarios acerca del día a día de la tienda. Cada post tendrá el nombre de quien lo escribió, la fecha y hora, y también podran ser respondidos. El sitio fue diseñado con HTML5, CSS3 Y JavaScript para el frontend, y NodeJS y MySql para el backend.",
+    "p2":"Web diseñada como libro de novedades para los empleados de la tienda Border(Argentina). En ella se pueden agregar novedades y/o comentarios acerca del día a día de la tienda. Cada post tendrá el nombre de quien lo escribió, la fecha y hora, y también podran ser respondidos. El sitio fue diseñado con HTML5, CSS3 Y JavaScript para el frontend, y NodeJS y MySql para el backend.",
     "p3title":"Notas",
     "p3":"Desarrollada con React y Css3, esta web permite crear notas y moverlas por la pantalla. Cada nota, al ser iniciada, tendrá su fecha de creación correspondiente.",
     "p4title":"Bati señal",
