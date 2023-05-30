@@ -7,6 +7,7 @@ import useColor from '../hooks/useColor.jsx'
 import { useTranslation } from 'react-i18next';
 import { motion } from "framer-motion"
 import ModalTransition from './ModalTransition';
+import logo from '../images/logo1.png'
 
 export default function Header() {
 
@@ -50,7 +51,7 @@ export default function Header() {
       {modal && <ModalTransition sty={ "modalTransition off" } />}
       <header id='header' className= { toggleButton ? 'active' : '' }>
           <div className='brand'>
-            <a onClick={()=>transition('/')}>Miguel Lozano</a>
+            <img src={logo} className='logo filter' onClick={()=>transition('/')}/>
           </div>
           <div className={toggleButton ? 'translate active' : 'translate'}>
             <FontAwesomeIcon icon={faLanguage} className='translate_icon' onClick={change}/>
