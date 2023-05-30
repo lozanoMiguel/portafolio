@@ -13,7 +13,7 @@
     position: relative;
 }
 
-#header .brand a{
+/*#header .brand a{
     font-weight: normal;
     font-family: 'Noto Serif JP', serif;
     font-size: 2em;
@@ -22,11 +22,12 @@
     text-decoration: none;
     font-weight: bold;
     cursor: pointer;
-}
+}*/
 
 #header .logo{
     cursor: pointer;
     height: 50px;
+    margin-right: 500px;
     width: 50px;
     color: var(--secondary-color-text);
 }
@@ -125,6 +126,10 @@
         width: 30%;
     }
 
+    #header .filter{
+        filter: var(--filter1);
+      }
+
     #header .navbar{
         width: 70%;
     }
@@ -144,6 +149,10 @@
         position: absolute;
         left: 90%;
         top: 27%;
+    }
+
+    .translate .translate_icon{
+        color: var(--primary-color-text);
     }
 }
 
@@ -194,7 +203,7 @@
     }
 
     #header .translate{
-        left: 50%;
+        left: 47%;
     }
 
     .translate .translate_icon{
