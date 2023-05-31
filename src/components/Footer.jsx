@@ -3,6 +3,8 @@ import '../styles/Footer.css'
 import mail from '../images/mail.svg'
 import instagram from '../images/brand-instagram.svg'
 import linkedin from '../images/brand-linkedin.svg'
+import github from '../images/icons8-github.svg'
+
 import { useLocation } from 'react-router-dom'
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from 'react-i18next'
@@ -37,6 +39,9 @@ export default function Footer() {
           </a>
           <a href="mailto:lozanomigueldev@gmail.com">
             <motion.img src={ mail } alt="lozanomiguel92@gmail.com" className='icon filter' whileHover={{ scale: [null, 1.5, 1.4] }} transition={{ duration: 0.3 }}/>
+          </a>
+          <a href="https://github.com/lozanoMiguel">
+            <motion.img src={ github } alt="lozanomiguel92@gmail.com" className='icon filter' whileHover={{ scale: [null, 1.5, 1.4] }} transition={{ duration: 0.3 }}/>
           </a>
         </div>
       </div>

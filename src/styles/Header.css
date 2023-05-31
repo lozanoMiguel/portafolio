@@ -134,10 +134,10 @@
         width: 70%;
     }
 
-    #header .brand a{
+    /*#header .brand a{
         font-size: 1.5em;
         color: var(--primary-color-text)
-    }
+    }*/
 
     #header .navbar_list li{
         color: var(--primary-color-text);
@@ -171,13 +171,13 @@
         filter: var(--filter1);
       }
 
-    #header .brand a{
+    /*#header .brand a{
         font-size: 1.5em;
         margin-top: 0;
         margin-left: .5rem;
         padding: .5rem;
         margin-right: auto;
-    }
+    }*/
 
     #header .navbar{
         width: 100%;
