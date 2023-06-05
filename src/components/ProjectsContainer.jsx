@@ -24,12 +24,6 @@ export default function ProjectsContainer() {
               <h2>{t("projects.projectsTitle")}</h2>
           </div>
           <div className='container'>
-            <Project
-              url = { "https://lozanomiguel.github.io/equipoHistorico/" } 
-              img = { p1 }
-              title = {t("projects.p1title")}
-              description = {t("projects.p1")}
-            />
             <Project 
               url = { "https://lozanomiguel.github.io/libroNovedades/" } 
               img = { p2 }
@@ -37,16 +31,10 @@ export default function ProjectsContainer() {
               description = {t("projects.p2")}
             />
             <Project 
-              url = { "https://lozanomiguel.github.io/notes/" } 
-              img = { p3 }
-              title = {t("projects.p3title")}
-              description = {t("projects.p3")}
-            />
-            <Project 
-              url = { "https://lozanomiguel.github.io/batSignal/" } 
-              img = { p4 }
-              title = {t("projects.p4title")}
-              description = {t("projects.p4")}
+              url = { "https://paolakremer.com" } 
+              img = { p6 }
+              title = {t("projects.p6title")}
+              description = {t("projects.p6")}
             />
             <Project 
               url = { "https://github.com/lozanoMiguel/multirivelChallenge" } 
@@ -55,10 +43,22 @@ export default function ProjectsContainer() {
               description = {t("projects.p5")}
             />
             <Project 
-              url = { "https://paolakremer.com" } 
-              img = { p6 }
-              title = {t("projects.p6title")}
-              description = {t("projects.p6")}
+              url = { "https://lozanomiguel.github.io/batSignal/" } 
+              img = { p4 }
+              title = {t("projects.p4title")}
+              description = {t("projects.p4")}
+            />
+            <Project
+              url = { "https://lozanomiguel.github.io/equipoHistorico/" } 
+              img = { p1 }
+              title = {t("projects.p1title")}
+              description = {t("projects.p1")}
+            />
+            <Project 
+              url = { "https://lozanomiguel.github.io/notes/" } 
+              img = { p3 }
+              title = {t("projects.p3title")}
+              description = {t("projects.p3")}
             />
             <Project 
               url = { "https://github.com/lozanoMiguel/portafolio" } 
