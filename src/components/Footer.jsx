@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/Footer.css'
 import mail from '../images/mail.svg'
-import instagram from '../images/brand-instagram.svg'
+//import instagram from '../images/brand-instagram.svg'
 import linkedin from '../images/brand-linkedin.svg'
 import github from '../images/icons8-github.svg'
 
@@ -31,9 +31,6 @@ export default function Footer() {
           <p>{t("footer.social-medias")}</p>
         </div>
         <div className='footer_socialMedia-icons'>
-          <a href="https://www.instagram.com/_lozanomiguel">
-            <motion.img src={ instagram } alt="@_lozanomiguel" className='icon filter' whileHover={{ scale: [null, 1.5, 1.4] }} transition={{ duration: 0.3 }}/>
-          </a>
           <a href="https://linkedin.com/in/lozanomiguel">
             <motion.img src={ linkedin } alt="https://linkedin.com/in/lozanomiguel" className='icon filter' whileHover={{ scale: [null, 1.5, 1.4] }} transition={{ duration: 0.3 }}/>
           </a>
