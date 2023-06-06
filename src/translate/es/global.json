@@ -18,8 +18,11 @@
     "about_about5": "Estoy muy emocionado de empezar mi carrera profesional y estoy seguro de que será una aventura maravillosa. ¡Gracias por leer mi historia!"
   },
   "contact":{
-    "contact_talk":"¿Hablamos?",
-    "contact_msg":"Si quieres que trabajemos en un proyecto o te interesa que sea parte de tú empresa"
+    "contact_talk":"Oye tú! :)",
+    "contact_msg1":"Gracias por visitar mi portafolio. Si tienes alguna pregunta, consulta o simplemente quieres ponerte en contacto conmigo, no dudes en escribirme.",
+    "contact_msg2":"Estoy emocionado de escuchar tus comentarios y estaré encantado de responder a tus mensajes lo antes posible. Si estás interesado en colaborar en un proyecto, no dudes en brindar detalles adicionales sobre tu idea y tus expectativas.",
+    "contact_msg3":"Tu opinión es importante para mí, así que si tienes alguna sugerencia para mejorar mi trabajo o mi portafolio, estaré encantado de escucharla.",
+    "contact_msg4":"¡Espero tener noticias tuyas pronto!"
   },
   "projects":{
     "projectsTitle":"Mis proyectos",

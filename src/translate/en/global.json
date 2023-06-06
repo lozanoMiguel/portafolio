@@ -18,8 +18,11 @@
     "about_about5": "I am very excited to start my professional career and I am sure it will be a wonderful adventure. Thanks for reading my story!"
   },
   "contact":{
-    "contact_talk":"We talk?",
-    "contact_msg":"If you want us to work on a project or if you are interested in making it a part of your company."
+    "contact_talk":"Hey you!  :)",
+    "contact_msg1":"Thank you for visiting my portfolio. If you have any questions, inquiries, or simply want to get in touch with me, feel free to write to me.",
+    "contact_msg2":"I'm excited to hear your feedback and will be happy to respond to your messages as soon as possible. If you're interested in collaborating on a project, please provide additional details about your idea and expectations.",
+    "contact_msg3":"Your opinion is important to me, so if you have any suggestions to improve my work or my portfolio, I'll be glad to hear them.",
+    "contact_msg4":"Looking forward to hearing from you soon!"
   },
   "projects":{
     "projectsTitle":"My projects",

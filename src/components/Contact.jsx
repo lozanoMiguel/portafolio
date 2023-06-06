@@ -21,10 +21,13 @@ export default function Contact() {
         <section className='contact'>
           <div className='contact_content'>
             <h2>{t("contact.contact_talk")}</h2>
-            <p>{t("contact.contact_msg")}</p>
+            <p>{t("contact.contact_msg1")}</p>
+            <p>{t("contact.contact_msg2")}</p>
+            <p>{t("contact.contact_msg3")}</p>
+            <p>{t("contact.contact_msg4")}</p>
             <h3>EMAIL</h3>
             <div className='contact_content-email'>
-              <p>lozanomigueldev@gmail.com</p>
+              <p id='email'>lozanomigueldev@gmail.com</p>
               <CopyToClipboard text='lozanomigueldev@gmail.com' onCopy={()=>{setCopied(true)}}>
                 <img src={ clip } alt="" className='icon filter' />
               </CopyToClipboard>
