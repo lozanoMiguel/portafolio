@@ -5,7 +5,7 @@
     "projects": "PROYECTOS"
   },
   "home": {
-    "title": "Miguelito legend Lozano",
+    "title": "Miguel Lozano",
     "location": "Barcelona, ES",
     "presentation": "Hola, me llamo Miguel. Soy un programador frontend con interés en el backend también. He creado éste sitio web a modo de portfolio para mostrar mis proyectos, contar un poco acerca de mi y tener un medio de contacto si quieres que hablemos :)"
   },
@@ -25,7 +25,7 @@
     "contact_msg4": "¡Espero tener noticias tuyas pronto!"
   },
   "projects": {
-    "projectsTitle": "Mis proyectoss",
+    "projectsTitle": "Mis proyectos",
     "p1title": "Tú once ideal",
     "p1": "Web diseñada para armar el once ideal de la selección Argentina de fútbol. La misma tiene una tabla con 23 jugadores y 4 formaciones para formar en cancha. Podrás elegir tanto la formación como el jugador que quieres para cada puesto. El sitio fue diseñado con HTML5, CSS3 Y JavaScript.",
     "p2title": "Libro de novedades",
