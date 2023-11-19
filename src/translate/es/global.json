@@ -1,48 +1,48 @@
 {
-  "header":{
-    "about":"SOBRE MI",
+  "header": {
+    "about": "SOBRE MI",
     "contact": "CONTACTO",
     "projects": "PROYECTOS"
   },
-  "home":{
-    "title": "Miguel Lozano",
+  "home": {
+    "title": "Miguelito Lozano",
     "location": "Barcelona, ES",
-    "presentation":"Hola, me llamo Miguel. Soy un programador frontend con interés en el backend también. He creado éste sitio web a modo de portfolio para mostrar mis proyectos, contar un poco acerca de mi y tener un medio de contacto si quieres que hablemos :)"
+    "presentation": "Hola, me llamo Miguel. Soy un programador frontend con interés en el backend también. He creado éste sitio web a modo de portfolio para mostrar mis proyectos, contar un poco acerca de mi y tener un medio de contacto si quieres que hablemos :)"
   },
-  "about":{
-    "title":"¿Por qué este sitio?",
+  "about": {
+    "title": "¿Por qué este sitio?",
     "about_about1": "Desde que era muy pequeño en Argentina, siempre me llamó la atención el mundo de los ordenadores. Recuerdo un amigo de mi infancia que era capaz de encontrar cualquier cosa en internet, desde juegos hasta películas o discos de música, ¡y para mí eso era magia!",
     "about_about2": "A pesar de que en un principio estudié una tecnicatura en programación en la UTN más por curiosidad que por fines profesionales, hoy en día mi enfoque ha cambiado. Me he dado cuenta de que quiero entrar en este hermoso mundo del desarrollo y por eso creé este sitio web.",
     "about_about3": "Durante mis estudios universitarios, tuve la oportunidad de desarrollar algunos proyectos interesantes, como una plataforma similar a Netflix o sistemas de reservas de hotel. También he trabajado de forma independiente para una casa de ropa, desarrollando un sistema de comunicación, así como para una project manager, creando su sitio web.",
     "about_about4": "Además de la programación, tengo otros intereses en mi vida. Me encanta el deporte, especialmente el fútbol y voy al gimnasio para oxigenar mi cerebro. También toco la guitarra, lo que me ayuda a aumentar mi creatividad, y disfruto mucho pasar tiempo con mis amigos para mantener un equilibrio entre mis responsabilidades diarias y mi vida social.",
     "about_about5": "Estoy muy emocionado de empezar mi carrera profesional y estoy seguro de que será una aventura maravillosa. ¡Gracias por leer mi historia!"
   },
-  "contact":{
-    "contact_talk":"Oye tú! :)",
-    "contact_msg1":"Gracias por visitar mi portafolio. Si tienes alguna pregunta, consulta o simplemente quieres ponerte en contacto conmigo, no dudes en escribirme.",
-    "contact_msg2":"Estoy emocionado de escuchar tus comentarios y estaré encantado de responder a tus mensajes lo antes posible. Si estás interesado en colaborar en un proyecto, no dudes en brindar detalles adicionales sobre tu idea y tus expectativas.",
-    "contact_msg3":"Tu opinión es importante para mí, así que si tienes alguna sugerencia para mejorar mi trabajo o mi portafolio, estaré encantado de escucharla.",
-    "contact_msg4":"¡Espero tener noticias tuyas pronto!"
+  "contact": {
+    "contact_talk": "Oye tú! :)",
+    "contact_msg1": "Gracias por visitar mi portafolio. Si tienes alguna pregunta, consulta o simplemente quieres ponerte en contacto conmigo, no dudes en escribirme.",
+    "contact_msg2": "Estoy emocionado de escuchar tus comentarios y estaré encantado de responder a tus mensajes lo antes posible. Si estás interesado en colaborar en un proyecto, no dudes en brindar detalles adicionales sobre tu idea y tus expectativas.",
+    "contact_msg3": "Tu opinión es importante para mí, así que si tienes alguna sugerencia para mejorar mi trabajo o mi portafolio, estaré encantado de escucharla.",
+    "contact_msg4": "¡Espero tener noticias tuyas pronto!"
   },
-  "projects":{
-    "projectsTitle":"Mis proyectos",
-    "p1title":"Tú once ideal",
-    "p1":"Web diseñada para armar el once ideal de la selección Argentina de fútbol. La misma tiene una tabla con 23 jugadores y 4 formaciones para formar en cancha. Podrás elegir tanto la formación como el jugador que quieres para cada puesto. El sitio fue diseñado con HTML5, CSS3 Y JavaScript.",
-    "p2title":"Libro de novedades",
-    "p2":"Web diseñada como libro de novedades para los empleados de la tienda Border(Argentina). En ella se pueden agregar novedades y/o comentarios acerca del día a día de la tienda. Cada post tendrá el nombre de quien lo escribió, la fecha y hora, y también podran ser respondidos. El sitio fue diseñado con HTML5, CSS3 Y JavaScript para el frontend, y NodeJs y MySql para el backend.",
-    "p3title":"Notas",
-    "p3":"Desarrollada con React y CSS3, esta web permite crear notas y moverlas por la pantalla. Cada nota, al ser iniciada, tendrá su fecha de creación correspondiente.",
-    "p4title":"Bati señal",
-    "p4":"Web diseñada para llamar al caballero de la noche! al oprimir un click en el reflector, la señal se pondrá en el cielo. Creada con HTML5, CSS3 Y JavaScript.",
-    "p5title":"Multirivel",
-    "p5":"Realicé un proyecto como prueba técnica para la agencia 'Agency Right Now'. El objetivo principal del proyecto fue migrar una página web desarrollada con HTML5, CSS3, jQuery y JavaScript a un framework. Decidí utilizar la biblioteca React para llevar a cabo esta migración. Aunque entregué el proyecto, lamentablemente no recibí ninguna respuesta por parte de la empresa. Esta experiencia me permitió invertir tiempo y esfuerzo en el proyecto, y aprendí mucho en el proceso. A pesar de no obtener una respuesta, considero que fue una valiosa experiencia y por eso he decidido incluirlo en mi lista de proyectos. Me permitió desarrollar mis habilidades y adquirir conocimientos significativos.",
-    "p6title":"Paola Kremer",
-    "p6":"Sitio web realizado para una project manager a modo de porfolio, en él cuenta sobre ella, su experiencia, los servicios que brinda y su contacto para contrataciones",
-    "p7title":"Miguel Lozano",
-    "p7":"Mi sitio web, lo construí a modo de portafolio. Considero importante tener una web propia siendo desarrollador."
+  "projects": {
+    "projectsTitle": "Mis proyectos",
+    "p1title": "Tú once ideal",
+    "p1": "Web diseñada para armar el once ideal de la selección Argentina de fútbol. La misma tiene una tabla con 23 jugadores y 4 formaciones para formar en cancha. Podrás elegir tanto la formación como el jugador que quieres para cada puesto. El sitio fue diseñado con HTML5, CSS3 Y JavaScript.",
+    "p2title": "Libro de novedades",
+    "p2": "Web diseñada como libro de novedades para los empleados de la tienda Border(Argentina). En ella se pueden agregar novedades y/o comentarios acerca del día a día de la tienda. Cada post tendrá el nombre de quien lo escribió, la fecha y hora, y también podran ser respondidos. El sitio fue diseñado con HTML5, CSS3 Y JavaScript para el frontend, y NodeJs y MySql para el backend.",
+    "p3title": "Notas",
+    "p3": "Desarrollada con React y CSS3, esta web permite crear notas y moverlas por la pantalla. Cada nota, al ser iniciada, tendrá su fecha de creación correspondiente.",
+    "p4title": "Bati señal",
+    "p4": "Web diseñada para llamar al caballero de la noche! al oprimir un click en el reflector, la señal se pondrá en el cielo. Creada con HTML5, CSS3 Y JavaScript.",
+    "p5title": "Multirivel",
+    "p5": "Realicé un proyecto como prueba técnica para la agencia 'Agency Right Now'. El objetivo principal del proyecto fue migrar una página web desarrollada con HTML5, CSS3, jQuery y JavaScript a un framework. Decidí utilizar la biblioteca React para llevar a cabo esta migración. Aunque entregué el proyecto, lamentablemente no recibí ninguna respuesta por parte de la empresa. Esta experiencia me permitió invertir tiempo y esfuerzo en el proyecto, y aprendí mucho en el proceso. A pesar de no obtener una respuesta, considero que fue una valiosa experiencia y por eso he decidido incluirlo en mi lista de proyectos. Me permitió desarrollar mis habilidades y adquirir conocimientos significativos.",
+    "p6title": "Paola Kremer",
+    "p6": "Sitio web realizado para una project manager a modo de porfolio, en él cuenta sobre ella, su experiencia, los servicios que brinda y su contacto para contrataciones",
+    "p7title": "Miguel Lozano",
+    "p7": "Mi sitio web, lo construí a modo de portafolio. Considero importante tener una web propia siendo desarrollador."
   },
-  "footer":{
-    "question":"Trabajemos juntos!",
+  "footer": {
+    "question": "Trabajemos juntos!",
     "affirmation": "Pongámonos en ",
     "contact": "contacto",
     "social-medias": "Redes sociales"
