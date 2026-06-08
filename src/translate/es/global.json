@@ -33,7 +33,7 @@
     "p3title": "Miguel Lozano",
     "p3": "Mi sitio web, lo construí a modo de portafolio. Considero importante tener una web propia siendo desarrollador.",
     "p4title": "CafBot",
-    "p4": "Desplegué un chatbot con IA en producción que recomienda cafés de una cafetería de especialidad según el método de preparación que utilice el usuario en casa y el perfil de sabor que prefiera. Fue desarrollado con FastAPI para el backend asíncrono, OpenAI GPT-3.5 Turbo, LangChain + Chroma para embeddings, Supabase para la persistencia de datos, y HTML/CSS responsive para el frontend."
+    "p4": "Desplegué un chatbot con IA en producción que recomienda cafés de una cafetería de especialidad según el método de preparación que utilice el usuario en casa y el perfil de sabor que prefiera. Fue desarrollado con FastAPI para el backend asíncrono, OpenAI gpt-4o-mini, LangChain + Chroma para embeddings, Supabase para la persistencia de datos, y HTML/CSS responsive para el frontend."
   },
   "footer": {
     "question": "Trabajemos juntos!",
