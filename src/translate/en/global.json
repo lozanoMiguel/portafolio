@@ -33,7 +33,7 @@
     "p3title": "Miguel Lozano",
     "p3": "My Web site. it was built as a portfolio. I think it's important to have your own website as a programmer.",
     "p4title": "Chatbot",
-    "p4": "I deployed an AI-powered chatbot to production that recommends coffees from a specialty coffee shop based on the brewing method used at home and the flavor profile preferred by the user. It was built with FastAPI for the asynchronous backend, OpenAI GPT-3.5 Turbo, LangChain + Chroma for embeddings, Supabase as the database, and HTML/CSS for the frontend."
+    "p4": "I deployed an AI-powered chatbot to production that recommends coffees from a specialty coffee shop based on the brewing method used at home and the flavor profile preferred by the user. It was built with FastAPI for the asynchronous backend, OpenAI gpt-4o-mini, LangChain + Chroma for embeddings, Supabase as the database, and HTML/CSS for the frontend."
   },
   "footer": {
     "question": "Let's work togheter!",
